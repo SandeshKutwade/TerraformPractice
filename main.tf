@@ -1,5 +1,5 @@
 module "making_git_module" {
-    source = "git@github.com:SandeshKutwade/TerraformPractice.git"
+    source = "https://github.com/SandeshKutwade/TerraformPractice.git"
     ami = var.AMI
     instance_type = var.InstanceType
     key_name = var.PublicKey
